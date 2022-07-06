@@ -126,52 +126,50 @@ body {
     background-color: #fff4d6;
 }
 
-.floods-section {
+.needs {
     display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 100px;
+    padding: 50px;
+    background-color: rgb(233, 231, 231);
+}
+
+.needs img {
     width: 100%;
-    margin: 30px;
 }
 
-.sylhet-floods {
-    width: 50%;
-    margin: 0 50px 70px 80px;
-    padding: 60px 0;
+
+.needs-item {
+    width: 45%;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+#for-padding {
+    padding-top: 25px;
+}
+
+.needs-item p {
+    color: rgb(116, 113, 113);
+    margin-bottom: 30px;
     text-align: justify;
-
 }
 
-.sylhet-floods h3 {
+.needs-item h1 {
     font-family: 'Poppins', sans-serif;
 }
 
-.sylhet-floods p {
-    font-weight: 100;
-    color: gray;
-}
-
-.sylhet-floods a {
+.link-button {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, tomato);
+    margin-top: 10px;
+    padding: 15px;
     color: white;
     font-weight: 700;
-    text-decoration: none;
-    text-align: center;
-    background-color: tomato;
-    padding: 10px 30px;
-    border: none;
     border-radius: 5px;
 }
-
-.sylhet-floods2 {
-
-    width: 50%;
-    margin: 30px 50px 30px 0;
-    padding: 30px;
-}
-
-.sylhet-floods2 img {
-    border-radius: 10px;
-    width: 80%;
-}
-
 
 .email-section {
     text-align: center;
