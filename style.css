@@ -90,7 +90,7 @@ body {
     font-size: large;
     font-weight: 700;
     border-radius: 5px;
-    border: 0px solid white;
+    border: none;
 }
 
 .third-section {
@@ -122,6 +122,50 @@ body {
 
 .bg3 {
     background-color: #fff4d6;
+}
+
+.floods-section {
+    display: flex;
+    width: 100%;
+    margin: 30px;
+}
+
+.sylhet-floods {
+    width: 50%;
+    margin: 70px 0 70px 70px;
+    padding: 60px;
+    text-align: justify;
+
+}
+
+.sylhet-floods h3 {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sylhet-floods p {
+    font-weight: 100;
+    color: gray;
+}
+
+.sylhet-floods a {
+    color: white;
+    font-weight: 700;
+    text-decoration: none;
+    text-align: center;
+    background-color: tomato;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 5px;
+}
+
+.sylhet-floods2 {
+    width: 50%;
+    margin: 30px 50px 30px 0;
+    padding: 30px;
+}
+
+.sylhet-floods2 img {
+    border-radius: 10px;
 }
 
 .email-section {
