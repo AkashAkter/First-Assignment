@@ -105,11 +105,13 @@ body {
     margin: 20px;
     padding: 20px;
     background-color: rgb(247, 207, 199);
+    width: 100%;
 }
 
 .child-p {
     color: gray;
     font-weight: 300;
+    text-align: justify;
 }
 
 .bg1 {
@@ -132,8 +134,8 @@ body {
 
 .sylhet-floods {
     width: 50%;
-    margin: 70px 0 70px 70px;
-    padding: 60px;
+    margin: 0 50px 70px 80px;
+    padding: 60px 0;
     text-align: justify;
 
 }
@@ -159,6 +161,7 @@ body {
 }
 
 .sylhet-floods2 {
+
     width: 50%;
     margin: 30px 50px 30px 0;
     padding: 30px;
@@ -166,7 +169,9 @@ body {
 
 .sylhet-floods2 img {
     border-radius: 10px;
+    width: 80%;
 }
+
 
 .email-section {
     text-align: center;
