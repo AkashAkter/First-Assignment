@@ -38,7 +38,7 @@ body {
 
 .s-header {
 
-    font-size: 45px;
+    font-size: 35px;
     margin-bottom: 10px;
 }
 
@@ -50,7 +50,8 @@ body {
 
 .child {
     display: flex;
-    margin-left: 313px;
+    text-align: center;
+    margin-left: 335px;
     margin-right: 313px;
     color: gray;
     font-weight: 800;
@@ -71,6 +72,13 @@ body {
     border-radius: 10px;
     background-color: rgb(253, 205, 197);
 
+}
+
+.input-amount {
+    text-align: center;
+    border: none;
+    padding: 10px 150px;
+    border-bottom: 1px solid gray;
 }
 
 .button2 {
@@ -114,4 +122,47 @@ body {
 
 .bg3 {
     background-color: #fff4d6;
+}
+
+.email-section {
+    text-align: center;
+    background-color: #fff4d6;
+    margin: 40px 250px;
+    border-radius: 10px;
+    padding: 40px 250px;
+}
+
+.email {
+    padding: 10px 20px;
+    background-color: rgb(221, 217, 217);
+    border: none;
+
+
+}
+
+.submit-button {
+    padding: 10px 15px;
+    background-color: tomato;
+    border: none;
+    color: white;
+}
+
+footer {
+    background-image: url(images/footer.png);
+    background-size: 100%;
+    text-align: center;
+    padding: 30px;
+    margin-top: 70px;
+
+}
+
+footer h3 {
+    color: tomato;
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+
+footer small {
+    color: white;
+    font-family: 'Arima', cursive;
 }
