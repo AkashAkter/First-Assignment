@@ -16,6 +16,7 @@ body {
 .f-header {
     font-size: 70px;
     margin: 0;
+    padding: 0 40px;
 }
 
 .para1 {
@@ -53,20 +54,20 @@ body {
     text-align: center;
     margin-left: 335px;
     margin-right: 313px;
-    color: gray;
+
     font-weight: 800;
     font-size: xx-large;
 
 }
 
 .child-para {
-
+    color: gray;
     padding: 30px;
 
 }
 
 .child-para-excp {
-
+    color: tomato;
     border: 2px solid rgb(245, 109, 84);
     padding: 30px;
     border-radius: 10px;
